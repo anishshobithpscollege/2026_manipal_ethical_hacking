@@ -10,7 +10,9 @@ Every push to `main` compiles each assignment to a PDF and attaches it to the [l
 
 <!-- THEORY:START -->
 
-_None yet. Add one under `assignments/theory/`._
+| # | Assignment | Download |
+| :-- | :-- | :-- |
+| 01 | Network Models and Routing for a Campus and Enterprise WAN | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_01.pdf) |
 
 <!-- THEORY:END -->
 
