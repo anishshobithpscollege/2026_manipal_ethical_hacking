@@ -145,9 +145,10 @@ layer of the stack wraps the data from the layer above in its own header
 
 == (a) Path through the OSI and TCP/IP models
 
-The seven OSI layers map onto the four TCP/IP layers by the colour groups in
-@fig-stack. The same request is a stream of bytes at the top, a segment at the
-transport layer, a packet at the network layer, and a frame of bits on the wire.
+The seven OSI layers map onto the four TCP/IP layers in
+@fig-stack. The same request changes name on the way down: a byte stream at the
+top, a segment at the transport layer, a packet at the network layer, and a
+frame of bits on the wire.
 
 #figure(d-stack, caption: [OSI and TCP/IP layers, the protocol at each, and the direction of encapsulation.], kind: image, supplement: [Figure]) <fig-stack>
 
@@ -155,7 +156,7 @@ The request then crosses the network as shown in @fig-path:
 
 + DNS resolves the server's name to an IP address, normally over UDP port 53.
 + TCP opens a connection to port 443 with a three-way handshake, and TLS encrypts the exchange.
-+ IP forwards the packet router by router. Each router rewrites the Layer-2 frame, so the MAC pair changes at every hop while the IP pair stays the same, NAT at the campus edge swaps the private source address for a public one.
++ IP forwards the packet router by router. Each router rewrites the Layer-2 frame, so the MAC pair changes at every hop while the IP pair stays the same. At the campus edge, NAT swaps the private source address for a public one.
 + The server unwraps the layers, TLS decrypts, and the web application reads the request. The reply retraces the path.
 
 #figure(d-path, caption: [The request's path. MAC addresses change per hop, IP addresses hold end to end.], kind: image, supplement: [Figure]) <fig-path>
@@ -174,7 +175,7 @@ The protocols sit at the layers shown in @fig-stack. Their roles:
 = Routing across headquarters and branch offices
 
 The company grows from four to twenty branches. A router forwards on the most
-specific matching route (longest prefix), when two sources offer the same
+specific matching route, the longest prefix. When two sources offer the same
 network, it keeps the one with the lower administrative distance (AD).
 
 == (a) Connected, static, default, and dynamic routes
@@ -223,7 +224,7 @@ as in @fig-igp.
 )
 
 For this network, RIP is ruled out by its 15-hop limit and slow convergence.
-An all-Cisco estate can run EIGRP, a mixed-vendor estate runs OSPF, both using
-areas or summarisation so twenty branches scale. IS-IS suits large providers
-more than enterprises. BGP belongs at the Internet edge, and is needed once the
-company takes links from more than one provider.
+An all-Cisco estate can run EIGRP. A mixed-vendor estate runs OSPF instead.
+Either way, areas or route summarisation keep twenty branches manageable. IS-IS
+suits large providers more than enterprises. BGP belongs at the Internet edge,
+and is needed once the company takes links from more than one provider.
