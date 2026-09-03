@@ -1,10 +1,10 @@
 {
-  "author": "Student Name",
-  "reg_no": "241234567",
+  "author": "Anish Shobith P S",
+  "reg_no": "261100690032",
   "institution": "Manipal School of Information Sciences",
   "kinds": {
-    "Theory": { "course": "Subject Name", "course_code": "SUB 1001" },
-    "Lab": { "course": "Subject Name Lab", "course_code": "SUB 1002" }
+    "Theory": { "course": "Ethical Hacking - I", "course_code": "CYE 5102" },
+    "Lab": { "course": "Ethical Hacking – I Lab", "course_code": "CYE 5152" }
   },
   "logo": "/template/assets/logo.png",
   "logo_width_cm": 2.8
