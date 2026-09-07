@@ -13,6 +13,7 @@ Every push to `main` compiles each assignment to a PDF and attaches it to the [l
 | # | Assignment | Download |
 | :-- | :-- | :-- |
 | 01 | Network Models and Routing for a Campus and Enterprise WAN | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_01.pdf) |
+| 02 | Reconnaissance and Port-Scan Interpretation in an Authorised Assessment | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_02.pdf) |
 
 <!-- THEORY:END -->
 
