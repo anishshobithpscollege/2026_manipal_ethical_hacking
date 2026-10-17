@@ -14,6 +14,8 @@ Every push to `main` compiles each assignment to a PDF and attaches it to the [l
 | :-- | :-- | :-- |
 | 01 | Network Models and Routing for a Campus and Enterprise WAN | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_01.pdf) |
 | 02 | Reconnaissance and Port-Scan Interpretation in an Authorised Assessment | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_02.pdf) |
+| 03 | Social Engineering Attacks: Importance and Countermeasures | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_03.pdf) |
+| 04 | Vulnerability Assessment and Risk Assessment: Differences and Relationship | [PDF](../../releases/download/latest/261100690032_Anish_Shobith_P_S_Ethical_Hacking_I_CYE_5102_04.pdf) |
 
 <!-- THEORY:END -->
 
