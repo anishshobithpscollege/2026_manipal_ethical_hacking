@@ -5,7 +5,7 @@
   title: "Social Engineering Attacks: Importance and Countermeasures",
   number: "Assignment 03",
   kind: "Theory",
-  date: datetime(year: 2026, month: 10, day: 17),
+  date: datetime(year: 2026, month: 10, day: 18),
 )
 
 #show figure: set block(breakable: true)
